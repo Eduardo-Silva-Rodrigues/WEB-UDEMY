@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 150%;
+        }
+
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-family: sans-serif;
+            text-align: left;
+        }
+
+        table caption {
+            caption-side: bottom;
+            text-align: right;
+            font-style: italic;
+            font-family: sans-serif;
+        }
+
+        tfoot td, table th {
+            background: #ddd;
+        }
+
+        tfoot td {
+            font-style: italic;
+        }
+
+        .responsive-table {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit.</p>
+    <div class="responsive-table">
+    <table>
+        <caption>Descrição da tabela</caption>
+
+        <thead>
+            <tr>
+                <th>Título 1</th>
+                <th>Título 1</th>
+                <th>Título 1</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="3" style="text-align: center;">AQUI</td>
+            </tr>
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" rowspan="2"></td>
+                <td rowspan="">TOTAL:</td>
+            </tr>
+            <tr>
+                <td>R$ 222,00</td>
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+</body>
+</html>

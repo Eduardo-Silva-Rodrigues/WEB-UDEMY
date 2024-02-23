@@ -1,0 +1,10 @@
+.caixa {
+    background: cyan;
+    width: 100%;
+    height: 85px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}

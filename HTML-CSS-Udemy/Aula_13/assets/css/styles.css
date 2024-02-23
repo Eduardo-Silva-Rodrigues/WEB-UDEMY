@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai .filha p {
+    color: purple;
+    font-style: italic;
+}
+
+
+
