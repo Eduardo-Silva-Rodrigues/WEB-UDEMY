@@ -9,23 +9,33 @@
 </head>
 <body>
     <section class="login-box">
-        <header class="main-title">
-            <h1>Logar</h1>
-        </header>
-        <section class="form-inputs">
-            <form action="">
-                <input class="input-login" type="email">
-                <input class="input-login" type="password">
+        <div class="login">
+            <header class="main-title">
+                <h1>LOGAR</h1>
+            </header>
+            <section>
+                <form action="">
+                    <label for="email-login" class="email-label">Email</label>
+                    <input class="input-login email-login" type="email">
+                    <label for="password-login" class="password-label">Senha</label>
+                    <input class="input-login password-login" type="password">
 
-                <button class="button-login">Entrar</button>
-            </form>
-        </section>
-        <footer>
-            <a href="#">Criar uma conta...</a>
-            <a href="#">Esqueci a senha...</a>
-        </footer>
+                    <button class="button-login">Entrar</button>
+                </form>
+            </section>
+            <section class="eye">
+                <button id="button-eye" class="button-eye" onmouseover="hoverBtn(true)" onmouseout="hoverBtn(false)" onmousedown="clickBtn()" onmouseup="clickBtn()"><img class="img-eye" src="/Projetos-Pessoais/Nook/assets/img/eye-svgrepo-com.svg" alt="Olho"></button>
+            </section>
+            <footer>
+                <a href="#">Criar uma conta...</a>
+                <a href="#">Esqueci a senha...</a>
+            </footer>
+        </div>
     </section>
 
+    <section class="globe">
+        <img class="img-globe" src="/Projetos-Pessoais/Nook/assets/img/globe-2-svgrepo-com.svg" alt="Planeta Terra">
+    </section>
     <script src="/Projetos-Pessoais/Nook/assets/js/login_page.js"></script>
 </body>
 </html>
