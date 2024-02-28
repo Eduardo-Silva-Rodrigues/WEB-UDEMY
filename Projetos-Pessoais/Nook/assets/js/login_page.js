@@ -1,8 +1,5 @@
 const btnEye = document.getElementById('button-eye');
-const btnEyeClass = document.querySelector('.button-eye');
 let inputPassword = document.querySelector('.password-login');
-
-const tamanhoBtn = btnEye.getBoundingClientRect();
 
 function clickBtn(){
     if (inputPassword.type === 'password'){
